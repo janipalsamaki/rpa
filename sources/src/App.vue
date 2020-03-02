@@ -53,65 +53,6 @@ export default {
                 <p>When you choose Robot Framework for your RPA implementation, you are choosing the freedom to extend it in any way you wish and the possibility to run it anywhere and how often you like. Robot Framework is not supported by just one single company but a network of thousands of experts around the world, which means that the future value of your RPA investment will be secured.</p>"
             }
           }
-        },
-        {
-          title: "Comparison",
-          text_block: true,
-          table_box: true,
-          data: {
-            text: {
-              header: "Comparison between open and closed RPA solutions",
-              text: ""
-            },
-
-            table: {
-              fields: {
-                title: {
-                  label: " "
-                },
-                open_solution: {
-                  label: "Open solution"
-                },
-                closed_solution: {
-                  label: "Closed solution"
-                }
-              },
-              rows: [
-                {
-                  title: "Licence costs",
-                  open_solution: "None",
-                  closed_solution:
-                    "Yes, depending on orchestration and number of parallel processes"
-                },
-                {
-                  title: "Scalability",
-                  open_solution: "Yes with open source tools",
-                  closed_solution: "Yes with additional cost"
-                },
-                {
-                  title: "Features",
-                  open_solution: "Limitless extensibility",
-                  closed_solution: "Vendor supported feature set"
-                },
-                {
-                  title: "Security",
-                  open_solution: "Open for audit",
-                  closed_solution: "Closed, based on trust"
-                },
-                {
-                  title: "Support for using machine learning models",
-                  open_solution: "Yes, state of the art tools available",
-                  closed_solution: "Vendor supported feature set"
-                },
-                {
-                  title: "Resources for developers",
-                  open_solution:
-                    "Active global community of thousands of developers and contributors, free online resources and documentation",
-                  closed_solution: "Vendor specific programs"
-                }
-              ]
-            }
-          }
         }
       ]
     };
